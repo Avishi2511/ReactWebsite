@@ -7,18 +7,18 @@ const MainImg = () => {
   return (
     <div className="mainImg">
         <div className="mask">
-            <img className="intro-img" src={IntroImg} />
+            <img className="intro-img" src={IntroImg} alt="intro-img"/>
         </div>
         <div className="content">
-            <p>Hi, I'm a Freelancer</p>
-            <h1>React Developer</h1>
+            <p>Hey!! Curious about the world of finances?? You've come to the right place</p>
+            <h1>FinWeb</h1>
             <div>
-                <Link to={"/Project"} className="btn">Projects</Link>
-                <Link to={"/Contact"} className="btn btn-light">Contact</Link>
+                <Link to={"/Project"} className="btn">Sign Up</Link>
+                <Link to={"/Contact"} className="btn btn-light">Log In</Link>
             </div>
         </div>
     </div>
-  )
+  ) 
 }
 
 export default MainImg
