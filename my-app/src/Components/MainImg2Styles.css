@@ -3,11 +3,13 @@
     background: rgba(0,0,0,0.5);
     height: 60vh;
     position: relative;
+
 }
 
 .heading::before{
     content: "";
-    background: url("https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    /*background: url("https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");*/
+    background-image: var(--bg-img);
     background-size: cover;
     background-position: center top;
     height: 100%;

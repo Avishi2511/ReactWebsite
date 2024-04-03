@@ -3,7 +3,7 @@ import './index.css';
 import Home from "./Routes/Home";
 import Contact from "./Routes/Contact";
 import About from "./Routes/About";
-import Project from "./Routes/Project";
+import BasicTerms from "./Routes/BasicTerms";
 import {Routes, Route} from "react-router-dom";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Route path="/" element={<Home />}/>
       <Route path="/Contact" element={<Contact />}/>
       <Route path="/About" element={<About />}/>
-      <Route path="/Project" element={<Project />}/>
+      <Route path="/BasicTerms" element={<BasicTerms />}/>
     </Routes>
   );
 }
