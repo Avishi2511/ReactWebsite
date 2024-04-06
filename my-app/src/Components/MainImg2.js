@@ -5,7 +5,7 @@ import React, { Component } from 'react'
 class MainImg2 extends Component {
     render(){
         const headingStyle = {
-            '--bg-img': `url(${this.props.imgsrc})`, // Define a CSS variable for the background image
+            '--bg-img': `url(${this.props.imgsrc})`,
         };
 
         return (

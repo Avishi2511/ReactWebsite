@@ -39,7 +39,7 @@ const Navbar = () => {
                 <Link to={"/About"}>About</Link>
             </li>
             <li>
-                <Link to={"/Contact"}>Contact</Link>
+                <Link to={"/Contact"}>Calculator</Link>
             </li>
         </ul>
         <div class="hamburger" onClick={handleClick}>

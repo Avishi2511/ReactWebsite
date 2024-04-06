@@ -26,6 +26,12 @@
     font-weight: 500;
 }
 
+.nav-menu li a:hover{
+    font-size:25px;
+    transition: all 500ms;
+    
+}
+
 .hamburger{
     display:none;
 }
