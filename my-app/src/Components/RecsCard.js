@@ -51,6 +51,9 @@ function RecsCard({ items }) {
 
     return (
         <div className="card-slider">
+            <button className="prev-btn" onClick={goToPrevItem}>
+                &lt;
+            </button>
             <div className="slider-container" ref={sliderRef}>
                 {items.map((item, index) => (
                     <div
@@ -64,9 +67,6 @@ function RecsCard({ items }) {
                     </div>
                 ))}
             </div>
-            <button className="prev-btn" onClick={goToPrevItem}>
-                &lt;
-            </button>
             <button className="next-btn" onClick={goToNextItem}>
                 &gt;
             </button>
