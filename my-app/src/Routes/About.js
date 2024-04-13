@@ -3,14 +3,14 @@ import React from 'react'
 import Navbar from "../Components/Navbar.js"
 import Footer from "../Components/Footer.js"
 import MainImg2 from '../Components/MainImg2.js'
-import AboutContent from '../Components/AboutContent.js'
+import Recs from '../Components/Recs.js'
 
 const About = () => {
   return (
     <div>
       <Navbar />
       <MainImg2 heading="ABOUT. " text="Im a Front-End Developer" />
-      <AboutContent />
+      <Recs />
       <Footer />
     </div>
   )
