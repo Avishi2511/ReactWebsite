@@ -1,36 +1,21 @@
 import React from 'react';
-import CardSlider from './RecsCard';
-import book1 from '../images/book1.jpg'
-import book2 from '../images/book2.jpg'
-import book3 from '../images/book3.jpg'
-import book4 from '../images/book4.jpg'
+import {books, movies} from './RecsCardData.js'
+import RecsCard from './RecsCard';
 
 function Recs() {
-    const movies = [
-        {
-            title: 'Movie 1',
-            imageUrl: book1,
-        },
-        {
-            title: 'Movie 2',
-            imageUrl: book2,
-        },
-        {
-            title: 'Movie 3',
-            imageUrl: book3,
-        },
-        {
-            title: 'Movie 3',
-            imageUrl: book4,
-        },
-    ];
-
     return (
         <div>
             <h1><center>Books</center></h1>
             <br></br>
             <br></br>
-            <CardSlider items={movies} />
+            <RecsCard items={books} />
+            <br></br>
+            <br></br>
+            <h1><center>Movies</center></h1>
+            <br></br>
+            <br></br>
+            <RecsCard items={movies} />
+
         </div>
     );
 }
