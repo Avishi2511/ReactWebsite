@@ -13,8 +13,8 @@ const MainImg = () => {
             <h1>FinWeb</h1>
             <p>Hey!! Curious about the world of finances?? You've come to the right place</p>
             <div style={{padding: "50px 0 0 0"}}>
-                <Link to={"/Project"} className="btn">Sign Up</Link>
-                <Link to={"/Contact"} className="btn btn-light">Log In</Link>
+                <Link to={"/"} className="btn">Sign Up</Link>
+                <Link to={"/"} className="btn btn-light">Log In</Link>
             </div>
         </div>
     </div>
