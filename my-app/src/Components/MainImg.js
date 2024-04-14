@@ -1,6 +1,6 @@
 import "./MainImgStyles.css";
 import React from 'react'
-import IntroImg from "../images/intro-bg.jpg"
+import IntroImg from "../images/home.jpg"
 import {Link} from "react-router-dom";
 
 const MainImg = () => {

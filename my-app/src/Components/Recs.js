@@ -5,7 +5,7 @@ import RecsCard from './RecsCard';
 function Recs() {
     return (
         <div>
-            <h1><center>Books</center></h1>
+            <h1 style={{padding: '80px 0 0 0 '}}><center>Books</center></h1>
             <br></br>
             <br></br>
             <RecsCard items={books} />
